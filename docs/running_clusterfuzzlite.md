@@ -15,6 +15,7 @@ permalink: /running-clusterfuzzlite/
 
 ## Overview
 ![overview]({{ site.baseurl }}/assets/overview.png)
+Before running ClusterFuzzLite, you must integrate your project with ClusterFuzzLite's build system to build your project's fuzzers. See [Integrating with ClusterFuzzLite's build system] if you haven't already taken this step.
 
 Once your project's fuzzers can be built and run by the OSS-Fuzz helper script,
 it is ready to be fuzzed by ClusterFuzzLite.
